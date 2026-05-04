@@ -2,6 +2,10 @@ import isladent from "../assets/img/isladent.jpg";
 import iaGame from "../assets/img/ia.png";
 import bateria from "../assets/img/bateriaMusical.png";
 import Alura from "../assets/img/aluraLatam.png";
+import chatApp from "../assets/img/chatApp.png";
+import cafe from "../assets/img/cafe.png";
+import particles from "../assets/img/particles.png";
+
 const Projects = () => {
   return (
     <section className="projects" id="proyectos">
@@ -58,6 +62,19 @@ const Projects = () => {
               />
             </a>
           </article>
+          <article>
+            <a
+              href="https://ecommers-coffe-theta.vercel.app"
+              className="enlacesProjects"
+            >
+              <h3 className="tituloResaltado">Ecommerce Coffe</h3>
+              <p>
+                Ecommerce sobre la venta de bolsas de grano de cafes
+                artesanales, con un diseño atractivo y moderno
+              </p>
+              <img className="imgProyectos imgBateria" src={cafe.src} alt="" />
+            </a>
+          </article>
         </div>
         <div className="vertical2">
           <article>
@@ -86,6 +103,43 @@ const Projects = () => {
                 sustitución de caracteres
               </p>
               <img className="imgProyectos" src={Alura.src} alt="" />
+            </a>
+          </article>
+          <article>
+            <a
+              href="https://chat-bhfwq4x3g-ingmikys-projects.vercel.app"
+              className="enlacesProjects"
+            >
+              <h3 className="tituloResaltado">Chat app</h3>
+              <p>
+                Aplicación web de chat funcional desarrollada para uso local.
+                Integra autenticación con Google para el inicio de sesión y
+                permite el envío de mensajes una vez autenticado. Los mensajes
+                se almacenan en Firebase, lo que habilita comunicación en tiempo
+                real entre usuarios.
+              </p>
+              <img
+                className="imgProyectos imgChatApp"
+                src={chatApp.src}
+                alt=""
+              />
+            </a>
+          </article>
+          <article>
+            <a
+              href="https://portfolio-particles-eight.vercel.app/"
+              className="enlacesProjects"
+            >
+              <h3 className="tituloResaltado">Particles page</h3>
+              <p>
+                Una landing page con una funcionalidad de particulas
+                interactivas con el mouse
+              </p>
+              <img
+                className="imgProyectos imgChatApp"
+                src={particles.src}
+                alt=""
+              />
             </a>
           </article>
         </div>
