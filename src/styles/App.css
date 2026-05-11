@@ -194,6 +194,7 @@ section {
   border-radius: 10px;
   cursor: pointer;
   background: rgb(255, 255, 255);
+  color: #090c1a;
 }
 
 .btnCV:hover {

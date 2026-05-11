@@ -10,7 +10,9 @@ const About = () => {
       </div>
       <div className="aboutInfoContainer">
         <div className="redesContainer">
-          <button className="btnCV">Descargar CV</button>
+          <a href="Miguel_Barrera_CV.pdf" download className="btnCV">
+            Descargar CV
+          </a>
           <ul className="redesSociales">
             <li>
               <a
@@ -28,11 +30,11 @@ const About = () => {
           </ul>
         </div>
         <p className="aboutMe">
-          Estudiante de Ingeniería en Desarrollo de Software con enfoque en
-          desarrollo web frontend. Combino educación formal con aprendizaje
-          autodidacta. Persona empática y colaborativa que valora el trabajo en
-          equipo, el intercambio de conocimientos y el crecimiento profesional
-          continuo en desarrollo web.
+          Ingeniero en Desarrollo de Software con enfoque en desarrollo web
+          frontend. Combino educación formal con aprendizaje autodidacta.
+          Persona empática y colaborativa que valora el trabajo en equipo, el
+          intercambio de conocimientos y el crecimiento profesional continuo en
+          desarrollo web.
         </p>
       </div>
     </section>
